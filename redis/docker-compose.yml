@@ -7,3 +7,4 @@ services:
     stop_grace_period: 1m
     environment:
     - ALLOW_EMPTY_PASSWORD=yes
+    # command: ["redis-server", "--requirepass", "changeme"]     # REDISDSN=redis://redis:changeme@redis-server:6379/0
